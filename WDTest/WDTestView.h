@@ -10,4 +10,6 @@
 
 @interface WDTestView : UIView
 
+-(void)WDTestView;
+
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C3A76C1F74EAA900D8C818 /* WDTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3A76B1F74EAA900D8C818 /* WDTestController.m */; };
+		18C3A76F1F74EABC00D8C818 /* WDTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3A76E1F74EABC00D8C818 /* WDTestModel.m */; };
 		BE78EB271EBB29B3005F1512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE78EB261EBB29B3005F1512 /* main.m */; };
 		BE78EB2A1EBB29B3005F1512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE78EB291EBB29B3005F1512 /* AppDelegate.m */; };
 		BE78EB2D1EBB29B3005F1512 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE78EB2C1EBB29B3005F1512 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18C3A76A1F74EAA900D8C818 /* WDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTestController.h; sourceTree = "<group>"; };
+		18C3A76B1F74EAA900D8C818 /* WDTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTestController.m; sourceTree = "<group>"; };
+		18C3A76D1F74EABC00D8C818 /* WDTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTestModel.h; sourceTree = "<group>"; };
+		18C3A76E1F74EABC00D8C818 /* WDTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTestModel.m; sourceTree = "<group>"; };
 		BE78EB221EBB29B3005F1512 /* WDTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE78EB261EBB29B3005F1512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE78EB281EBB29B3005F1512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +94,10 @@
 			children = (
 				BE78EB401EBB2A07005F1512 /* WDTestView.h */,
 				BE78EB411EBB2A07005F1512 /* WDTestView.m */,
+				18C3A76A1F74EAA900D8C818 /* WDTestController.h */,
+				18C3A76B1F74EAA900D8C818 /* WDTestController.m */,
+				18C3A76D1F74EABC00D8C818 /* WDTestModel.h */,
+				18C3A76E1F74EABC00D8C818 /* WDTestModel.m */,
 			);
 			name = WDTest;
 			path = ../../WDTest;
@@ -166,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE78EB2D1EBB29B3005F1512 /* ViewController.m in Sources */,
+				18C3A76C1F74EAA900D8C818 /* WDTestController.m in Sources */,
+				18C3A76F1F74EABC00D8C818 /* WDTestModel.m in Sources */,
 				BE78EB421EBB2A07005F1512 /* WDTestView.m in Sources */,
 				BE78EB2A1EBB29B3005F1512 /* AppDelegate.m in Sources */,
 				BE78EB271EBB29B3005F1512 /* main.m in Sources */,

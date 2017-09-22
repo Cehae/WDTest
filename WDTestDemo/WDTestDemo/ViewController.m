@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
+
+#import "WDTestController.h"
 #import "WDTestView.h"
+#import "WDTestModel.h"
 
 @interface ViewController ()
 
@@ -17,8 +20,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    WDTestController * controller = [[WDTestController alloc]init];
+    
+    [controller WDTestController];
+    
+    NSLog(@"view  -%@",controller);
+    
     WDTestView * view = [[WDTestView alloc]init];
+   
+    [view WDTestView];
+    
     NSLog(@"view  -%@",view);
+    
+    WDTestModel * model = [[WDTestModel alloc]init];
+    
+    [model WDTestModel];
+    
+    NSLog(@"view  -%@",model);
 }
 
 
